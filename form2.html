@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Formulario</title>
+    <link rel="stylsheet" href='../normalize.css'></link>
+    <style rel="stylsheet">
+
+        *, *:before, *:after{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+             box-sizing: border-box;
+    }
+
+.clear{ clear:both;}
+body{
+    font: 18px/1.4 arial, sans-serif;
+    color:black;
+    background: #ccc;
+}
+#tudo{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 860px;
+    margin: 0;
+    background-color: #ffff;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #036;
+}
+.topo_header{
+    background: #036;
+    padding: 5px 20px;
+}
+.topo_header h1{
+    font-size: 36px;
+    margin: 4px 0 2px 0;
+}
+.topo_header a{
+    color: #fff;
+   text-decoration:none;
+}
+.topo_header h2{
+    font-size: 20px;
+    margin: 2px 0 4px 0;
+    color:#fff;
+}
+
+.principal{
+    width: 100%;
+    padding: 20px 15px;
+}
+.rodape{
+    background: #036;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+}
+pre{
+    font-size: 14px;
+}
+@media (max-width:1040px){
+    pre{
+        font-size: 12px;
+    }
+}
+
+/*FORMULARIO*/
+    </style>
+</head>
+<body class="home">
+    <div id="tudo">
+        <div class="topo">
+            <header class="topo_header">
+                <hgroup>
+                    <h1><a href="/">Formulario</a></h1>
+                    <H2>Elementos e Atributos</H2>
+                </hgroup>
+            </header>
+
+        </div><!--/.topo-->
+
+        <div class="principal">
+            <main>
+                <section>
+                    <h1>Elementos fielset, legend, label</h1>
+
+<form action="" method="">
+    <fieldset>
+        <legend>Dados Pessosais</legend>
+        <p><small>Campos com rótulo implicito</small></p>
+        <label>Nome: <input type="text" nome="nome">
+        <label>Sobrenome: <input type="text" nome="Sobrenome">
+        <label>Email: <input type="email" nome="Email"> </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Suas Preferencias</legend>
+        <p><small>Campos com rótulo implicito</small></p>
+        <label for="livro">Livro: </label>
+            <input type="text" id="livro" nome="livro">
+        <label for="Filme">Filme: </label>
+            <input type="text" id="Filme" nome="Filme">
+        <label for="Esporte">Esporte: </label>
+            <input type="text" id="Esporte" nome="Esporte">
+    </fieldset>
+</form>
+                </section>
+            </main>
+        </div><!--/.PRINCIPAL-->
+
+        <div class="rodape">
+            <footer>
+                <small>Site Desenvolvido pela aluna Tatiane Vieira</small>
+            </footer>
+        </div> <!--/.rodape-->
+    </div> <!--.tudo-->
+
+
+</body>
+</html>
