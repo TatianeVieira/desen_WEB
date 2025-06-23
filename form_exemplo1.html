@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="#tatiane">
+        Qual o seu primeiro nome?
+        <input type="text" name="primeiro_nome" value="tatiane" size="10" maxlength="15">
+    </form>
+
+    <form method="post" action="#tatiane">
+        Informe sua senha de acesso (8 caracteres):
+        <input type="password" value="xpto" name="sua_senha" size="8" maxlength="8">
+    </form>
+
+    <form method="post" action="#tatiane">
+        voce nao pode visualizar nada aqui embaixo.
+        <input type="hidden" name="nome_oculto" value="form12">
+    </form>
+
+    <form method="post" action="#tatiane">
+        Por favor, escreva aqui suas sugestao, duvidas e criticas: <br>
+        <textarea name="critica" rows="3" cols="40">
+            Gostaria de obter mais informações sobre este servidor. Grato.
+        </textarea>
+    </form>
+
+    <form method="post" action="#tatiane">
+        Onde voce pretende fazer turismo nas ferias?
+        <select name="lugares_para_ver">
+            <option>Fortaleza</option>
+            <option value="sul">Florianopolis ou Porto Alegre</option>
+            <option>Rio de Janeiro</option>
+            <option selected>Brasilia</option>
+            <option value="amazonia">Manaus</option>
+        </select>
+    </form>
+
+    <form method="post" action="#tatiane">
+        Que facilidade de acomodação voce deseja? <br>
+        <select name="opcional" multiple size="5">
+            <option>Televisão</option>
+            <option value="casal" selected>Cama de casal</option>
+            <option>Ar Condicionado</option>
+            <option>Fax</option>
+            <option selected>Modem V.34</option>
+            <option>Sauna</option>
+            <option>Lavandeira</option>
+            <option>Frigo-Bar</option>
+        </select>
+    </form>
+
+    <form method="post" action="#tatiane">
+        <input type="checkbox" name="veiculo1" value="Bicicleta"/> Eu tenho uma Bicicleta<br/>
+        <input type="checkbox" name="veiculo2" value="Carro"/> Eu tenho um Carro<br/>
+        <input type="checkbox" name="veiculo3" value="Barco"/> Eu tenho um Barco<br/>
+        <input type="submit" value="submit"/>
+    </form>
+
+    <form method="post" action="#tatiane">
+        <P>Por favor, selecione o seu genero:</P>
+        <input type="radio" name="gender" value="male"/> Homem<br>
+        <input type="radio" name="gender" value="female"/> Mulher<br>
+        <input type="radio" name="gender" value="other"/> Outro<br>
+
+        <P>Por favor, selecione sua idade:</P>
+        <input type="radio" name="age" value="30"/> 0 - 30<br>
+        <input type="radio" name="age" value="60"/> 31 - 60<br>
+        <input type="radio" name="age" value="100"/> 61 - 100<br>
+    </form>
+
+    <form action="#tatiane">
+        Email: <input type="text" name="Email"/><br/>
+        Pin: <input type="text" name="Pin" maxlength="4"/><br/>
+        <input type="reset" value="reset"/>
+        <input type="submit" value="submit"/>
+    </form>
+
+</body>
+</html>
