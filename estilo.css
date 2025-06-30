@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cabecalho {
+    background-color: yellow;
+    height: 70px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+  .principal {
+    display: flex;
+  }
+  
+  .menu {
+    width: 80px;
+    background-color: lightblue;
+    padding: 80px;
+    border: 1px solid black;
+    height: 286px;
+  }
+  
+  .menu ul {
+    list-style-type: disc;
+    padding:0px;
+  }
+
+  .conteudo {
+    flex: 1;
+    background-color: lightsalmon;
+    padding: 3px;
+    border: 1px solid black;
+    height: 440px;
+  }
+  
+  .rodape {
+    background-color: darkgreen;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+    height: 50px;
+  }
+  
