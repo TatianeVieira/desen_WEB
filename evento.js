@@ -1,6 +1,6 @@
 function mouseOver()
 {
-    document.imagem.src = "download (6).jpp";
+    document.imagem.src = "download (6).jpg";
 }
 function mouseOut()
 {
